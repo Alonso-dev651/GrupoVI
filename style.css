@@ -1,0 +1,112 @@
+/*IMPORT*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/*BODY*/
+.container__body h1 {
+    color: darkred;
+}
+.container__body .section-title {
+    color: red;
+    font-weight: bold;
+}
+.container__body ul {
+    list-style-type: none;
+}
+.container__body ul li::before {
+    content: "✔️ ";
+}
+
+/*FOOTER*/
+footer .container__footer{
+    background: black;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+
+.footer__col ul{
+    list-style: none;
+}
+
+.footer__col h4{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 22px;
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.footer__col h4::before{
+    content: '';
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    background-color: #e91e64;
+    bottom: -10px;
+}
+
+.footer__col ul li{
+    padding: 10px 0;
+}
+
+.footer__col ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    opacity: 0.7;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer__col ul li a:hover{
+    opacity: 1;
+}
+
+.col p{
+    color: white;
+}
+
+.row hr{
+    opacity: 0.7;
+}
+
+.row .social__Icons{
+    display: flex;
+    flex-direction: row;
+}
+
+.row .social__Icons i{
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    margin: 0 15px;
+    transition: 0.5s;
+}
+
+.row .social__Icons i:hover{
+    color: #e91e64;
+}
+
+@media (max-width:915px){
+    footer .row{
+        flex-direction: column;
+        padding: 20px 30px;
+    }
+
+    footer .footer__col ul{
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+}
