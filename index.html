@@ -7,41 +7,315 @@
     <link rel="shortcut icon" href="images/image-removebg-preview.png">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Grupo VI</title>
 </head>
 
 <body>
-    <div class="container__body">
+    <div class="navbar">
+        <a href="index.html" class="active">Inicio</a>
+        <a href="pages/servicios.html">Servicios</a>
+        <a href="pages/contactos.html">Contactos</a>
+    </div>
+    <div class="plan">
         <h1>Plan de Negocio</h1>
 
-        <h2>¿Cuál es la idea de negocio?</h2>
+        <h2 class="title">¿Cuál es la idea de negocio?</h2>
         <p>Crear un ambiente limpio para que se pueda alimentar Estudiantes, Personal, Visitantes, a un precio
             accesible, con variedad de menús. Deben llegar a sentir un ambiente amigable y propicio para:</p>
         <ul>
-            <li>Ser un comensal</li>
+            <li><i class="fas fa-utensils"></i> Ser un comensal</li>
         </ul>
+        <div class="centered-image">
+            <img class="small-image" src="/images/comedor.jpg" alt="Comedor">
+        </div>
 
-        <h2 class="section-title">¿Identifica/Menciona el Segmento?</h2>
+        <h2 class="title">¿Identifica/Menciona el Segmento?</h2>
         <ul>
-            <li>Estudiantes</li>
-            <li>Docentes / Personal</li>
-            <li>Visitantes</li>
+            <li><i class="fas fa-user-graduate"></i> Estudiantes</li>
+            <li><i class="fas fa-chalkboard-teacher"></i> Docentes / Personal</li>
+            <li><i class="fas fa-users"></i> Visitantes</li>
+            <li><i class="fas fa-map-marker-alt"></i> Zona: Jose Pardo</li>
+            <li><i class="fas fa-user-tag"></i> Nicho: Estudiantes, Profesores, Visitantes</li>
         </ul>
-        <p>Zona: Jose Pardo</p>
-        <p>Nicho: Estudiantes, Profesores, Visitantes</p>
+        <div class="centered-image">
+            <img class="small-image" src="/images/alumno.jpg" alt="Segmento">
+        </div>
 
-        <h2 class="section-title">Geográfico</h2>
-        <p>El Comedor del instituto Jose Pardo Av. Miguel Grau 610, La Victoria, 15033</p>
+        <h2 class="title">Geográfico</h2>
+        <p><i class="fas fa-map-marked-alt"></i> El Comedor del instituto Jose Pardo Av. Miguel Grau 610, La Victoria,
+            15033</p>
+        <div class="centered-image">
+            <img src="/images/ubicacion.png" alt="Geográfico">
+        </div>
 
-        <h2 class="section-title">Demográfico</h2>
-        <p>Se le ofrece a Personal del Instituto: Docentes, Administrativos, Limpieza, y Estudiantes, Visitantes.</p>
+        <h2 class="title">Demográfico</h2>
+        <p><i class="fas fa-users-cog"></i> Se le ofrece a Personal del Instituto: Docentes, Administrativos, Limpieza,
+            y Estudiantes, Visitantes.</p>
+        <div class="centered-image">
+            <img src="/images/profes.png" alt="Demográfico">
+        </div>
 
-        <h2 class="section-title">Conductual</h2>
-        <p>Los Docentes y Personal Administrativo desayunan, almuerzan o consumen menú. Los estudiantes pueden almorzar
-            o complementar con algo.</p>
+        <h2 class="title">Conductual</h2>
+        <p><i class="fas fa-behance"></i> Los Docentes y Personal Administrativo desayunan, almuerzan o consumen menú.
+            Los estudiantes pueden almorzar o complementarse con algo.</p>
+        <div class="centered-image">
+            <img src="/images/ingenie.png" alt="Conductual">
+        </div>
 
-        <h2 class="section-title">Psicoligia</h2>
-        <p>Consumo de desayuno en el concesionario donde se sientan a gusto y el ambiente.</p>
+        <h2 class="title">Psicológico</h2>
+        <p><i class="fas fa-brain"></i> Consumo de desayuno en el concesionario donde se sientan a gusto y el ambiente.
+        </p>
+        <div class="centered-image">
+            <img src="/images/desayuno.png" alt="Psicológico">
+        </div>
+
+        <div class="container__body">
+            <div class="section">
+                <h1 class="section-title">Categorías de Gastos</h2>
+                    <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Categoría</th>
+                                    <th>Detalles</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Servicios</strong></td>
+                                    <td>
+                                        <ul>
+                                            <li>Agua</li>
+                                            <li>Electricidad</li>
+                                            <li>Internet</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Costos Fijos</strong></td>
+                                    <td>
+                                        <ul>
+                                            <li>Sueldos del personal</li>
+                                            <li>Seguro</li>
+                                            <li>Alquiler del comedor (incluye cocina y mesas)</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Activos Fijos</strong></td>
+                                    <td>
+                                        <ul>
+                                            <li>Equipos adicionales de cocina (hornos, refrigeradores)</li>
+                                            <li>Utensilios (platos, vasos, cubiertos)</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Costos Variables</strong></td>
+                                    <td>
+                                        <ul>
+                                            <li>Ingredientes para la preparación de comidas</li>
+                                            <li>Productos desechables (servilletas, vasos plásticos)</li>
+                                            <li>Mantenimiento de equipos</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Costos Indirectos</strong></td>
+                                    <td>
+                                        <ul>
+                                            <li>Limpieza (productos de limpieza, personal de limpieza)</li>
+                                            <li>Publicidad y marketing</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Gastos Únicos</strong></td>
+                                    <td>
+                                        <ul>
+                                            <li>Gastos iniciales para la apertura (compra inicial de utensilios, platos,
+                                                etc.)</li>
+                                            <li>Renovación de equipos</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+            </div>
+
+            <div class="section">
+                <h1 class="section-title">Categorías de Ventas</h2>
+                    <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Categoría</th>
+                                    <th>Detalles</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Menús</strong></td>
+                                    <td>
+                                        <ul>
+                                            <li>Almuerzos</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Desayunos</strong></td>
+                                    <td>
+                                        <ul>
+                                            <li>Panes con relleno</li>
+                                            <li>Cereales</li>
+                                            <li>Jugos</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Postres</strong></td>
+                                    <td>
+                                        <ul>
+                                            <li>Tartas</li>
+                                            <li>Pasteles</li>
+                                            <li>Helados</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Galletas y Snacks</strong></td>
+                                    <td>
+                                        <ul>
+                                            <li>Galletas empaquetadas</li>
+                                            <li>Papas fritas</li>
+                                            <li>Barras de cereal</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Bebidas</strong></td>
+                                    <td>
+                                        <ul>
+                                            <li>Agua</li>
+                                            <li>Refrescos</li>
+                                            <li>Jugos</li>
+                                            <li>Café</li>
+                                            <li>Té</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Platos Adicionales</strong></td>
+                                    <td>
+                                        <ul>
+                                            <li>Salchipapa</li>
+                                            <li>Hamburguesas</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Productos Empaquetados</strong></td>
+                                    <td>
+                                        <ul>
+                                            <li>Productos típicos de Frito Lay</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+            </div>
+
+            <div class="section">
+                <h1 class="section-title">Registro de Ventas</h2>
+                    <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Fecha</th>
+                                    <th>Producto</th>
+                                    <th>Categoría</th>
+                                    <th>Cantidad</th>
+                                    <th>Precio Unitario (S/)</th>
+                                    <th>Total (S/)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2024-01-01</td>
+                                    <td>Almuerzo</td>
+                                    <td>Menús</td>
+                                    <td>50</td>
+                                    <td>10</td>
+                                    <td>500</td>
+                                </tr>
+                                <tr>
+                                    <td>2024-01-01</td>
+                                    <td>Pan con relleno</td>
+                                    <td>Desayunos</td>
+                                    <td>30</td>
+                                    <td>2</td>
+                                    <td>60</td>
+                                </tr>
+                                <tr>
+                                    <td>2024-01-01</td>
+                                    <td>Tarta</td>
+                                    <td>Postres</td>
+                                    <td>20</td>
+                                    <td>3</td>
+                                    <td>60</td>
+                                </tr>
+                                <tr>
+                                    <td>2024-01-01</td>
+                                    <td>Galletas</td>
+                                    <td>Galletas y Snacks</td>
+                                    <td>25</td>
+                                    <td>1.5</td>
+                                    <td>37.5</td>
+                                </tr>
+                                <tr>
+                                    <td>2024-01-01</td>
+                                    <td>Salchipapa</td>
+                                    <td>Platos Adicionales</td>
+                                    <td>15</td>
+                                    <td>7</td>
+                                    <td>105</td>
+                                </tr>
+                                <tr>
+                                    <td>2024-01-01</td>
+                                    <td>Hamburguesa</td>
+                                    <td>Platos Adicionales</td>
+                                    <td>10</td>
+                                    <td>8</td>
+                                    <td>80</td>
+                                </tr>
+                                <tr>
+                                    <td>2024-01-01</td>
+                                    <td>Papas Fritas (Frito Lay)</td>
+                                    <td>Productos Empaquetados</td>
+                                    <td>20</td>
+                                    <td>2</td>
+                                    <td>40</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+            </div>
+
+            <div class="section">
+                <h1 class="section-title">Análisis y Optimización</h2>
+                    <ul>
+                        <li><strong>Análisis de Costos:</strong> Revisar regularmente los costos para identificar áreas
+                            donde se puede reducir el gasto sin comprometer la calidad del servicio.</li>
+                        <li><strong>Optimización de Ventas:</strong> Analizar cuáles productos son más rentables y
+                            ajustar el inventario y la oferta en base a la demanda.</li>
+                        <li><strong>Balance de Ingresos y Egresos:</strong> Mantener un balance positivo entre ingresos
+                            y egresos para asegurar la sostenibilidad del comedor.</li>
+                    </ul>
+            </div>
+        </div>
     </div>
     <footer>
         <div class="container__footer">
@@ -61,10 +335,12 @@
                 <div class="footer__col">
                     <h4>Montes Katia</h4>
                     <ul>
-                        <!--                         <li><a href=""><i class='bx bxl-linkedin'></i>Linkedin</a></li>
-                        <li><a href=""><i class='bx bxl-github' ></i>Github</a></li>
-                        <li><a href=""><i class='bx bxl-instagram' ></i>Instagram</a></li>
-                        <li><a href=""><i class='bx bx-envelope' ></i>Email</a></li> -->
+                        <li><a
+                                href="https://www.linkedin.com/in/montes-chingo-katia-pamela-188795296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                    class='bx bxl-linkedin'></i>Linkedin</a></li>
+                        <li><a href="https://github.com/Pamela2018"><i class='bx bxl-github'></i>Github</a></li>
+                        <li><a href=""><i class='bx bxl-instagram'></i>Instagram</a></li>
+                        <li><a href=""><i class='bx bx-envelope'></i>Email</a></li>
                     </ul>
                 </div>
                 <div class="footer__col">
